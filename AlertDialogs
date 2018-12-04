@@ -1,0 +1,14 @@
+AlertDialog dialog = builder.create();
+AlertDialog.Builder builder = new AlertDialog.Builder(this);
+      builder.setMessage("Send Confirmation SMS?")
+          .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+             // User confiremed the dialog
+            }
+          })
+          .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+              // User cancelled the dialog
+            }
+          });
+    dialog.show();
