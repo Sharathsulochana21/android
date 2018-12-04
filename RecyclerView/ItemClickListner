@@ -1,0 +1,3 @@
+public interface ItemClickListener {
+  void onAcceptClickListener(int pos, AcceptRejectModel item, int acceptOrReject);
+}
